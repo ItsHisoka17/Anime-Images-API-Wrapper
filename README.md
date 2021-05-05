@@ -1,4 +1,4 @@
-The npm package for the Images web API by ItsHisoka17
+# Anime-Images-API Javascript Wrapper
 
 Usage Example:
 ```js
