@@ -20,7 +20,7 @@ Output:
 ```
 https://anime-api.hisoka17.repl.co/images/hug80.gif
 ```
-**The Following Endpoints Are For the `sfw` property**
+### Endpoint Methods:
 `API.sfw`:
 
 | Endpoint | Description         |
@@ -44,7 +44,7 @@ https://anime-api.hisoka17.repl.co/images/hug80.gif
 
 
 
-**Other Methods:**
+### Other Methods:
 `download`
 
 ```js
