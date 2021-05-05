@@ -2,11 +2,14 @@
 
 ### About:
 This ia a Javascript Wrapper For [Anime-Images-Api](https://anime-api.hisoka17.repl.co/)
+
 About The API:
+
 Anime-Images API is a powerful Rest API built with Node.JS
-> 1000+ Images
+
+**1000+ Images
 > 10+ Endpoints. With more being Added
-> Lightning fast responses
+> Lightning fast responses**
 
 
 ### Basic Usage:
