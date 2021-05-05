@@ -1,0 +1,16 @@
+{
+  "name": "anime-images-api",
+  "version": "1.0.32",
+  "description": "A javascript wrapper for Anime-Images-API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["api", "anime", "images"],
+  "author": "Hisoka",
+  "license": "ISC",
+  "dependencies": {
+    "node-superfetch": "^0.1.11"
+  },
+  "homepage": "https://github.com/HashT9u/anime-api-wrapper"
+}
