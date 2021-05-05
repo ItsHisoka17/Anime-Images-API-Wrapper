@@ -8,6 +8,9 @@ async function getIMG(){
     let { image } = await API.sfw.hug()
 }
 getIMG()
+//Or get an NSFW Image:
+
+
 ```
 Output:
 ```
@@ -27,6 +30,13 @@ https://anime-api.hisoka17.repl.co/images/hug80.gif
 | kill()   | Sends a kill Gif    |
 | cuddle() | Sends a cuddle Gif  |
 | wafiu()  | Sends a waifu       |
+
+`API.nsfw`:
+
+| Endpoint | Description         |
+|----------|---------------------|
+| hentai() | Sends a hug Gif     |
+| boobs()  | Sends a boob Gif    |
 
 
 
