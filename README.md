@@ -1,6 +1,6 @@
 # Anime-Images-API Javascript Wrapper
 
-Usage Example:
+### Basic Usage:
 ```js
 const Anime_Images = require('anime-images-api')
 const API = new Anime_Images()
