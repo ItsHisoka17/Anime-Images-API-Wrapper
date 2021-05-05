@@ -57,7 +57,7 @@ console.log('Downloaded')
 
 ```
 
-Discord Bot example:
+### Discord Bot example:
 ```js
 const Discord = require('discord.js');
 const client = new Discord.Client()
