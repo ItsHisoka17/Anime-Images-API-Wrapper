@@ -17,7 +17,7 @@ class GetImages {
         for (const endpoint of Object.keys(endpoints.nsfw)){
             type.nsfw[endpoint] = async () => {
                 let res = await __request(endpoints.nsfw[endpoint])
-                return await __request(path)
+                return res;
             }
         }
     }
