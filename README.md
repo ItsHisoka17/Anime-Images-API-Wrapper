@@ -53,7 +53,7 @@ https://anime-api.hisoka17.repl.co/images/hug80.gif
 
 | Endpoint | Description         |
 |----------|---------------------|
-| hentai() | Sends a lesbian Gif |
+| hentai() | Sends a hentai Gif  |
 | boobs()  | Sends a boob Gif    |
 | lesbian()| Sends a lesbian Gif |
 
