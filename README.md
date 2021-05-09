@@ -81,7 +81,7 @@ const images_api = new API()
 
 client.on('message', function(m){
     if (m.content.startsWith('image')){
-        images_api.hug().then(response => {
+        images_api.sfw.hug().then(response => {
             m.channel.send(response.image)
         }) 
     }
