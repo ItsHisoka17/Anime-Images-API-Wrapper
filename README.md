@@ -69,7 +69,7 @@ const API = new Anime_Images()
     let image = await API.sfw.hug();
     image.download('images', 'hugging') //Path, Filename
     .then(() => console.log('Finished Downloading'))
-})
+})()
 ```
 ### Discord Bot example:
 ```js

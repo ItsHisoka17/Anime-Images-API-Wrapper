@@ -1,6 +1,6 @@
 {
   "name": "anime-images-api",
-  "version": "1.0.45",
+  "version": "1.0.47",
   "description": "A javascript wrapper for Anime-Images-API",
   "main": "src/index.js",
   "scripts": {
