@@ -59,19 +59,18 @@ https://anime-api.hisoka17.repl.co/images/hug80.gif
 
 
 
-### Other Methods:
-`download`
 
+### Download the image:
 ```js
-const API = require('anime-images-api')
-const images_api = new API() 
+const Anime_Images = require('anime-images-api')
+const API = new Anime_Images()
 
-let url = 'https://example.com/file.jpg';
-images_api.download(url, path, 'file.jpg')
-console.log('Downloaded')
-
+(async () => {
+    let image = await API.sfw.hug();
+    image.download('images', 'hugging') //Path, Filename
+    .then(() => console.log('Finished Downloading'))
+})
 ```
-
 ### Discord Bot example:
 ```js
 const Discord = require('discord.js');
