@@ -21,5 +21,14 @@ class GetImages {
             }
         }
     }
+
+    listEndpoints(){
+        let allEndpoints = {};
+        for (const type of [endpoints.sfw, endpoints.nsfw]){
+            Object.assign(allEndpoints, type)
+        }
+
+        return Object.keys(allEndpoints).map(e => '- ' + e.split('')[0].toUpperCase()+e.split('').slice(1).join('')).join('\n\n')
+    }
 }
 module.exports = GetImages;
