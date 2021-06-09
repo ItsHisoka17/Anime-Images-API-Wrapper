@@ -6,7 +6,9 @@
     "wink": "/img/wink",
     "pat": "/img/pat",
     "kill": "/img/kill",
-    "cuddle": "/img/cuddle"
+    "cuddle": "/img/cuddle",
+    "punch": "/img/punch",
+    "waifu": "/img/waifu"
   },
   "nsfw": {
       "hentai": "/img/nsfw/hentai",
