@@ -18,7 +18,7 @@ module.exports = async function __request(path){
              * @returns {Promise<void>} 
              */
             download: async (path, name) => {
-                downloadFile(res.body.url, path, `${name}.${res.body.url.split('.').pop()}`)
+                downloadFile(res.body.url, path, `${name.replace(/^\.(png|gif|jpg|jpeg)$/, '')}.${res.body.url.split('.').pop()}`)
             }
         }
         return resolve(body)
