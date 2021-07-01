@@ -1,6 +1,6 @@
 {
   "name": "anime-images-api",
-  "version": "1.0.82",
+  "version": "2.0.0",
   "description": "A javascript wrapper for Anime-Images-API",
   "main": "src/index.js",
   "scripts": {
@@ -19,5 +19,6 @@
   "dependencies": {
     "node-superfetch": "^0.1.11"
   },
-  "homepage": "https://github.com/HashT9u/Anime-Images-API-Wrapper"
+  "homepage": "https://anime-api.hisoka17.repl.co",
+  "repository": {"url": "https://github.com/ItsHisoka17/Anime-Images-API-Wrapper"}
 }
