@@ -47,15 +47,6 @@ https://anime-api.hisoka17.repl.co/images/hug80.gif
 | pat()    | Sends a pat Gif     |
 | kill()   | Sends a kill Gif    |
 | cuddle() | Sends a cuddle Gif  |
-| wafiu()  | Sends a waifu       |
-
-`API.nsfw`:
-
-| Endpoint | Description         |
-|----------|---------------------|
-| hentai() | Sends a hentai Gif  |
-| boobs()  | Sends a boob Gif    |
-| lesbian()| Sends a lesbian Gif |
 
 
 
